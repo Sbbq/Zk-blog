@@ -3,11 +3,11 @@
   <title>简~单</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/Zk-blog/atom.xml" rel="self"/>
   
-  <link href="https://sbbq.github.io/Zk-blog/"/>
+  <link href="https://sbbq.github.io/"/>
   <updated>2018-03-15T06:40:51.723Z</updated>
-  <id>https://sbbq.github.io/Zk-blog/</id>
+  <id>https://sbbq.github.io/</id>
   
   <author>
     <name>Z&#39;k</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://sbbq.github.io/Zk-blog//posts/4a17b156/"/>
-    <id>https://sbbq.github.io/Zk-blog//posts/4a17b156/</id>
+    <link href="https://sbbq.github.io//posts/4a17b156/"/>
+    <id>https://sbbq.github.io//posts/4a17b156/</id>
     <published>2018-03-15T05:41:27.696Z</published>
     <updated>2018-03-15T06:40:51.723Z</updated>
     
