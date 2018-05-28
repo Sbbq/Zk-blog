@@ -6,7 +6,7 @@
     
     
     
-    <title>简~单</title>
+    <title>No title | 简~单</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
@@ -39,12 +39,16 @@
 
 
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="简~单">
-<meta property="og:url" content="https://sbbq.github.io/index.html">
+    <meta name="description" content="块级绑定Var 变量声明和变量提升函数内定义Var变量，会自动提升到函数入口声明1234567891011121314151617function getValue(condition) &amp;#123;    if (condition) &amp;#123;        var value = &amp;quot;blue&amp;quot;;        // other code        return va">
+<meta property="og:type" content="article">
+<meta property="og:title" content="No title">
+<meta property="og:url" content="https://sbbq.github.io/posts/0/index.html">
 <meta property="og:site_name" content="简~单">
+<meta property="og:description" content="块级绑定Var 变量声明和变量提升函数内定义Var变量，会自动提升到函数入口声明1234567891011121314151617function getValue(condition) &amp;#123;    if (condition) &amp;#123;        var value = &amp;quot;blue&amp;quot;;        // other code        return va">
+<meta property="og:updated_time" content="2018-05-28T07:39:42.402Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="简~单">
+<meta name="twitter:title" content="No title">
+<meta name="twitter:description" content="块级绑定Var 变量声明和变量提升函数内定义Var变量，会自动提升到函数入口声明1234567891011121314151617function getValue(condition) &amp;#123;    if (condition) &amp;#123;        var value = &amp;quot;blue&amp;quot;;        // other code        return va">
     
         <link rel="alternate" type="application/atom+xml" title="简~单" href="/Zk-blog/atom.xml">
     
@@ -59,7 +63,7 @@
 
 <body>
     <div id="loading" class="active"></div>
-    <aside id="menu"   >
+    <aside id="menu"  class="hide" >
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
@@ -80,7 +84,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-              <li class="waves-block waves-effect active">
+              <li class="waves-block waves-effect">
                   <a href="/Zk-blog/"  >
                     <i class="icon icon-lg icon-home"></i>
                     <span>主 页</span><i class="icon icon-lg icon-caret-left"></i>
@@ -146,7 +150,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">简~单</div>
+        <div class="flex-col header-title ellipsis"></div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -163,19 +167,16 @@
         </a>
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header post-header">
     
     
     <div class="container fade-scale">
         <div id="myheader">
             <h1 class="title">
-                 
-                    简~单
                 
             </h1>
             <h5 class="subtitle">
                 
-                    
                 
             </h5>
         </div>
@@ -183,34 +184,43 @@
 
 </header>
 
+
 <div class="container body-wrap">
-    <ul class="post-list">
     
-        <li class="post-list-item fade">
-            <article id="post-Es6-Blockbindings"
-  class="article-card article-type-post" itemprop="blogPost">
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#块级绑定"><span class="post-toc-number">1.</span> <span class="post-toc-text">块级绑定</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Var-变量声明和变量提升"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Var 变量声明和变量提升</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#块级声明"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">块级声明</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#小结"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">小结</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#小结-1"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">小结</span></a></li></ol></li></ol></li></ol>
+        </nav>
+    </aside>
+   
+<article id="post-Es6-Blockbindings"
+  class="post-article article-type-post fade" itemprop="blogPost">
 
-    
+    <div class="post-card">
+        <h1 class="post-card-title"></h1>
+        <div class="post-meta">
+            <i class="icon icon-lg icon-calendar-o"></i>
+            发表于
+            <time class="post-time" title="2018-05-28 13:59:36" datetime="2018-05-28T05:59:36.012Z"  itemprop="datePublished">2018-05-28</time>
+
+            <br id="mybreak"/>
+            
+<script>
+	mybreak.style="display:none";
+</script>
 
 
-  
-    <h3 class="post-title" itemprop="name">
-      <a href="/Zk-blog/posts/0/">No title</a>
-    </h3>
-  
+            <i>·</i>
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>次浏览
+</span>
 
 
-
-
-     <div class="post-meta">
-        <time class="post-time" title="2018-05-28 13:59:36" datetime="2018-05-28T05:59:36.012Z"  itemprop="datePublished">2018-05-28</time>
-
-    </div>
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        <h4 id="块级绑定"><a href="#块级绑定" class="headerlink" title="块级绑定"></a>块级绑定</h4><h5 id="Var-变量声明和变量提升"><a href="#Var-变量声明和变量提升" class="headerlink" title="Var 变量声明和变量提升"></a>Var 变量声明和变量提升</h5><p>函数内定义Var变量，会自动提升到函数入口声明<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">function getValue(condition) &#123;</span><br><span class="line"></span><br><span class="line">    if (condition) &#123;</span><br><span class="line">        var value = &quot;blue&quot;;</span><br><span class="line"></span><br><span class="line">        // other code</span><br><span class="line"></span><br><span class="line">        return value;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line"></span><br><span class="line">        // value exists here with a value of undefined</span><br><span class="line"></span><br><span class="line">        return null;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // value exists here with a value of undefined</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h4 id="块级绑定"><a href="#块级绑定" class="headerlink" title="块级绑定"></a>块级绑定</h4><h5 id="Var-变量声明和变量提升"><a href="#Var-变量声明和变量提升" class="headerlink" title="Var 变量声明和变量提升"></a>Var 变量声明和变量提升</h5><p>函数内定义Var变量，会自动提升到函数入口声明<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">function getValue(condition) &#123;</span><br><span class="line"></span><br><span class="line">    if (condition) &#123;</span><br><span class="line">        var value = &quot;blue&quot;;</span><br><span class="line"></span><br><span class="line">        // other code</span><br><span class="line"></span><br><span class="line">        return value;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line"></span><br><span class="line">        // value exists here with a value of undefined</span><br><span class="line"></span><br><span class="line">        return null;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // value exists here with a value of undefined</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h5 id="块级声明"><a href="#块级声明" class="headerlink" title="块级声明"></a>块级声明</h5><p>Let 声明变量仅仅在当前块内有效，Let 声明必须在初始化之前<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">if (condition) &#123;</span><br><span class="line">    console.log(typeof value);  // ReferenceError!</span><br><span class="line">    let value = &quot;blue&quot;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>典型Let 解决循环问题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var funcs = [];</span><br><span class="line"></span><br><span class="line">for (let i = 0; i &lt; 10; i++) &#123;</span><br><span class="line">    funcs.push(function() &#123;</span><br><span class="line">        console.log(i);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">funcs.forEach(function(func) &#123;</span><br><span class="line">    func();     // outputs 0, then 1, then 2, up to 9</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
 <p>let 声明 循环中每次创建一个新的i.所以每个函数所带的参数都是自己的i，不会像Var一样变成10.</p>
@@ -230,104 +240,111 @@
 <p><strong>函数尾递归优化</strong><br>递归函数最后调用自身，而不需要函数上下文环境。</p>
 <h6 id="小结-1"><a href="#小结-1" class="headerlink" title="小结"></a>小结</h6><p>函数默认参数，函数参数的数组拆解，箭头函数this指向</p>
 
-    
-        <div>
-            <a href="/Zk-blog/posts/0/" class="post-more waves-button">
-                Continue reading...
-            </a>
         </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    Last updated: <time datetime="2018-05-28T07:39:42.402Z" itemprop="dateUpdated">2018-05-28 15:39:42</time>
+</span>
+
+
+        
+        原文链接：<a href="/Zk-blog/posts/0/" target="_blank" rel="external">https://sbbq.github.io/posts/0/</a>
+        
     </div>
-    
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-Z&#39;k"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a href="/Zk-blog/posts/a149d82f/">Z&#39;k First Page</a>
-    </h3>
-  
-
-
-
-
-     <div class="post-meta">
-        <time class="post-time" title="2018-03-15 21:13:26" datetime="2018-03-15T13:13:26.147Z"  itemprop="datePublished">2018-03-15</time>
-
-    </div>
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        <h2 id="About-this"><a href="#About-this" class="headerlink" title="About this"></a>About this</h2><h3 id="About-That"><a href="#About-That" class="headerlink" title="About That"></a>About That</h3>
-    
-        <div>
-            <a href="/Zk-blog/posts/a149d82f/" class="post-more waves-button">
-                Continue reading...
-            </a>
+    <footer>
+        <div onclick="location.href='https://sbbq.github.io'">
+            <img src="/Zk-blog/img/avatar.jpg" alt="Z'k">
+            <a>Z'k</a>
         </div>
-    </div>
+    </footer>
+</blockquote>
+
+        
+
+
+
+
+        <div class="post-footer">
+            
+
+            
+<div class="page-share-wrap">
     
-</article>
 
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-hello-world"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a href="/Zk-blog/posts/4a17b156/">Hello World</a>
-    </h3>
-  
-
-
-
-
-     <div class="post-meta">
-        <time class="post-time" title="2018-03-15 13:41:27" datetime="2018-03-15T05:41:27.696Z"  itemprop="datePublished">2018-03-15</time>
-
-    </div>
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-    
-        <div>
-            <a href="/Zk-blog/posts/4a17b156/" class="post-more waves-button">
-                Continue reading...
-            </a>
-        </div>
-    </div>
-    
-</article>
-
-        </li>
-    
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://sbbq.github.io/posts/0/&title=简~单&pic=https://sbbq.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://sbbq.github.io/posts/0/&title=简~单&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sbbq.github.io/posts/0/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=简~单&url=https://sbbq.github.io/posts/0/&via=https://sbbq.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://sbbq.github.io/posts/0/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
     </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
 
     
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/Zk-blog/posts/a149d82f/" id="post-next" class="post-nav-link">
+        <h4 class="title" data-hover="下一篇：Z&#39;k First Page">下一篇：Z&#39;k First Page</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+    
+
+    
+
+    
+
+
+</article>
 
 </div>
 
@@ -351,8 +368,83 @@
 
     </main>
     
+        
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        <span>感谢您的鼓励支持！</span>
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" data-img="/Zk-blog/img/dog.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/Zk-blog/img/wechat.png" data-alipay="/Zk-blog/img/alipay.png">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechatPay">&nbsp;&nbsp;微信&nbsp;&nbsp;</span>
+                <span class="reward-toggle-item alipayPay">支付宝</span>
+            </div>
+        </label>
+        
+        <i class="icon icon-caret-up"></i>
+    </div>
+</div>
+
+
+    
     <div class="mask" id="mask"></div>
 <a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://sbbq.github.io/posts/0/&title=《No title》 — 简~单&pic=https://sbbq.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://sbbq.github.io/posts/0/&title=《No title》 — 简~单&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sbbq.github.io/posts/0/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《No title》 — 简~单&url=https://sbbq.github.io/posts/0/&via=https://sbbq.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://sbbq.github.io/posts/0/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p class="wechatshare">扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://sbbq.github.io/posts/0/" alt="微信分享二维码">
+</div>
+
+
 
 
     <!-- waves按钮特效 -->
@@ -360,7 +452,7 @@
 
 <!-- 主题配置脚本 -->
 <script>
-var BLOG = { ROOT: '/Zk-blog/', SHARE: true, REWARD: false };
+var BLOG = { ROOT: '/Zk-blog/', SHARE: true, REWARD: true };
 </script>
 
 <!-- jquery -->
